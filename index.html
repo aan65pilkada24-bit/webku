@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sekolah Hidroponik — Belajar Bertani Modern</title>
+  <meta name="description" content="Sekolah Hidroponik: kursus praktik dan teori bertani hidroponik untuk pelajar, guru, dan wirausahawan. Program, jadwal, galeri, dan pendaftaran online.">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    :root{--accent:#27AE60;--dark:#16322f;--muted:#6b7280;--bg:#f7faf7}
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.5;margin:0;background:var(--bg);color:#0f172a}
+    a{color:var(--accent);text-decoration:none}
+    header{background:linear-gradient(90deg,rgba(39,174,96,.08),transparent);backdrop-filter:blur(3px);border-bottom:1px solid rgba(15,23,42,.04)}
+    .container{max-width:1100px;margin:0 auto;padding:1rem}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:0.5rem 0}
+    .brand{display:flex;gap:.75rem;align-items:center}
+    .brand .logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#16a085);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav ul{display:flex;gap:1rem;align-items:center;list-style:none;margin:0;padding:0}
+    .btn{background:var(--accent);color:white;padding:.55rem .9rem;border-radius:8px;border:0;font-weight:600}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center;padding:2.5rem 0}
+    .hero-inner{background:linear-gradient(180deg,rgba(255,255,255,.6),transparent);padding:1.5rem;border-radius:14px}
+    .kicker{display:inline-block;padding:.2rem .6rem;border-radius:999px;background:#e6fff0;color:var(--accent);font-weight:700;margin-bottom:.75rem}
+    h1{font-size:clamp(1.6rem,2.6vw,2.6rem);margin:0 0 .5rem}
+    p.lead{color:var(--muted);margin:0 0 1rem}
+    .features{display:flex;gap:.75rem;flex-wrap:wrap}
+    .card{background:white;padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(8,15,22,.04);border:1px solid rgba(15,23,42,.04)}
+
+    /* Grid sections */
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    .programs{padding:1rem 0}
+    .program{padding:1rem;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfffc);border:1px solid rgba(15,23,42,.03)}
+    .program h3{margin:.3rem 0}
+
+    /* Gallery */
+    .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}
+    .gallery img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+
+    /* Form */
+    form{display:grid;gap:.6rem}
+    input,textarea,select{padding:.6rem;border-radius:8px;border:1px solid rgba(15,23,42,.08);font-size:0.95rem}
+    .row{display:flex;gap:.6rem}
+    .small{flex:1}
+
+    footer{padding:2rem 0;color:var(--muted)}
+
+    /* Responsive */
+    @media (max-width:900px){
+      .grid-3{grid-template-columns:repeat(1,1fr)}
+      .gallery{grid-template-columns:repeat(2,1fr)}
+      .hero{padding:1rem 0}
+      nav ul{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">SH</div>
+        <div>
+          <div style="font-weight:700">Sekolah Hidroponik</div>
+          <div style="font-size:.8rem;color:var(--muted)">Belajar bertani modern & berkelanjutan</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#daftar">Daftar</a></li>
+        </ul>
+      </nav>
+      <div>
+        <a class="btn" href="#daftar">Daftar Sekarang</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <span class="kicker">Kursus Intensif • Praktik & Teori</span>
+        <h1>Pelajari Hidroponik — Dari Kebun Rumah hingga Bisnis</h1>
+        <p class="lead">Program praktis untuk pelajar, guru, dan calon wirausahawan. Modul lengkap: dasar nutrisi, sistem NFT dan DFT, kultur jaringan, kontrol lingkungan, dan pemasaran hasil panen.</p>
+        <div class="features">
+          <div class="card" style="min-width:180px">
+            <strong>Durasi</strong>
+            <div style="color:var(--muted)">4 — 12 minggu (pilihan modul)</div>
+          </div>
+          <div class="card" style="min-width:180px">
+            <strong>Lokasi</strong>
+            <div style="color:var(--muted)">Workshop & praktik lapangan</div>
+          </div>
+          <div class="card" style="min-width:180px">
+            <strong>Skema</strong>
+            <div style="color:var(--muted)">Hybrid: tatap muka + materi digital</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="display:flex;flex-direction:column;gap:.8rem;align-items:start;max-width:460px">
+        <h3 style="margin:0">Kursus Populer</h3>
+        <div class="programs">
+          <div class="program">
+            <h3>Dasar Hidroponik (Level 1)</h3>
+            <p style="margin:0;color:var(--muted)">Pengenalan sistem, media, nutrisi, dan penanaman sayur daun.</p>
+          </div>
+          <div class="program" style="margin-top:.6rem">
+            <h3>Sistem NFT & DFT (Level 2)</h3>
+            <p style="margin:0;color:var(--muted)">Desain, instalasi, dan troubleshooting sistem NFT/DFT.</p>
+          </div>
+        </div>
+        <a class="btn" href="#program" style="align-self:stretch;text-align:center">Lihat Semua Program</a>
+      </div>
+    </section>
+
+    <section id="about" style="padding:1.2rem 0">
+      <div class="card">
+        <h2>Tentang Sekolah Hidroponik</h2>
+        <p style="color:var(--muted)">Sekolah Hidroponik berdiri untuk mendukung pendidikan pertanian modern. Kami menggabungkan praktik lapangan, modul digital, dan asesmen sertifikat. Peserta mendapatkan modul cetak/digital, akses ke komunitas alumni, dan bimbingan usaha skala kecil.</p>
+        <ul style="color:var(--muted)">
+          <li>Instruktur berpengalaman — agronomi & wirausaha</li>
+          <li>Fokus pada aplikasi praktis dan pemasaran hasil</li>
+          <li>Program dapat disesuaikan untuk sekolah (kurikulum & workshop)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="program" style="padding:1.2rem 0">
+      <h2>Program & Modul</h2>
+      <div class="grid-3">
+        <div class="card program">
+          <h3>Level 1 — Pengenalan</h3>
+          <p style="color:var(--muted)">Teori dasar tanaman, media tanam, nutrisi dasar, penanaman selada dan kangkung.</p>
+        </div>
+        <div class="card program">
+          <h3>Level 2 — Sistem & Teknik</h3>
+          <p style="color:var(--muted)">Instalasi sistem NFT, DFT, timer, dan manajemen nutrisi berkelanjutan.</p>
+        </div>
+        <div class="card program">
+          <h3>Level 3 — Bisnis & Pemasaran</h3>
+          <p style="color:var(--muted)">Packaging, branding, pemasaran digital hasil panen, dan model bisnis kecil.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" style="padding:1.2rem 0">
+      <h2>Galeri Kegiatan</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1524594154904-6e0b3b3b2a8f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Panen selada"/>
+        <img src="https://images.unsplash.com/photo-1542736667-069246bdbc6d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Sistem NFT"/>
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Workshop"/>
+        <img src="https://images.unsplash.com/photo-1526318472351-c75fcf070f85?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Pasar hasil panen"/>
+      </div>
+    </section>
+
+    <section id="daftar" style="padding:1.2rem 0">
+      <h2>Pendaftaran Peserta</h2>
+      <div class="card" style="display:grid;grid-template-columns:1fr 360px;gap:1rem">
+        <div>
+          <form id="formDaftar" onsubmit="handleSubmit(event)">
+            <label>Nama Lengkap</label>
+            <input required type="text" id="nama" placeholder="Nama Anda" />
+
+            <label>Email</label>
+            <input required type="email" id="email" placeholder="email@contoh.com" />
+
+            <div class="row">
+              <div class="small">
+                <label>Telepon</label>
+                <input required id="tel" placeholder="0812xxxxxxx" />
+              </div>
+              <div class="small">
+                <label>Program Pilihan</label>
+                <select id="programSelect">
+                  <option value="level1">Level 1 — Pengenalan</option>
+                  <option value="level2">Level 2 — Sistem & Teknik</option>
+                  <option value="level3">Level 3 — Bisnis & Pemasaran</option>
+                </select>
+              </div>
+            </div>
+
+            <label>Pesan / Catatan</label>
+            <textarea id="note" rows="4" placeholder="Misalnya ingin kelas di akhir pekan..."></textarea>
+
+            <div style="margin-top:.6rem;display:flex;gap:.6rem">
+              <button class="btn" type="submit">Kirim Pendaftaran</button>
+              <button type="button" onclick="document.getElementById('formDaftar').reset()" style="padding:.55rem .9rem;border-radius:8px;border:1px solid rgba(15,23,42,.06);background:white">Reset</button>
+            </div>
+          </form>
+        </div>
+        <div style="padding:.8rem">
+          <h4>Info Cepat</h4>
+          <p style="color:var(--muted)">Setiap pendaftaran akan kami konfirmasi melalui email dan/atau WA. Biaya dan jadwal akan dikirim setelah verifikasi data.</p>
+          <ul style="color:var(--muted)">
+            <li>Kuota per kelas terbatas</li>
+            <li>Tersedia paket sekolah & corporate</li>
+            <li>Materi dapat disesuaikan untuk kurikulum sekolah</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:1rem 0">
+      <div class="card">
+        <h2>Kontak & Lokasi</h2>
+        <p style="color:var(--muted)">Alamat: Jl. Contoh No.123, Kota Anda — Telepon: 0812-XXXX-XXXX — Email: info@sekolahhidroponik.id</p>
+        <div style="width:100%;height:260px;background:#eef6ef;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted)">Peta/Embed Google Maps di sini (ganti dengan iframe embed nyata)</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+      <div>
+        <strong>Sekolah Hidroponik</strong>
+        <div style="color:var(--muted)">© " + new Date().getFullYear() + " Semua hak dilindungi</div>
+      </div>
+      <div style="color:var(--muted)">Dirancang untuk edukasi dan pemberdayaan komunitas.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple client-side submission handler (replace with server integration)
+    function handleSubmit(e){
+      e.preventDefault();
+      const data = {
+        nama: document.getElementById('nama').value,
+        email: document.getElementById('email').value,
+        tel: document.getElementById('tel').value,
+        program: document.getElementById('programSelect').value,
+        note: document.getElementById('note').value
+      };
+      // Demo: simpan ke localStorage dan tampilkan notifikasi
+      const daftar = JSON.parse(localStorage.getItem('daftarHidroponik')||'[]');
+      daftar.push({...data, waktu:new Date().toISOString()});
+      localStorage.setItem('daftarHidroponik', JSON.stringify(daftar));
+      alert('Pendaftaran terkirim! Kami akan menghubungi Anda melalui email/WA.');
+      document.getElementById('formDaftar').reset();
+    }
+  </script>
+</body>
+</html>
